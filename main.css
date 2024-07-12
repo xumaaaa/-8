@@ -1,0 +1,31 @@
+body{
+    background-image: url(https://bogatyr.club/uploads/posts/2023-03/thumbs/1677670685_bogatyr-club-p-futbolnoe-pole-s-vorotami-foni-vkontakte-13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ball{
+    width: 100px;
+
+    animation: animl 2s infinite alternate;
+
+}
+
+@keyframes animl{
+    0%{
+        margin-top: 0px;
+        margin-left: 0px;
+
+    }
+
+    20%{
+        margin-top: 400px;
+    }
+
+    100%{
+        margin-top: 300px;
+        margin-left: 1000px;
+        rotate: 1000deg;
+
+    }
+}
